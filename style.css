@@ -1,0 +1,97 @@
+body{
+    background-color: #2c90d3;
+    background-image: url(https://img.freepik.com/vetores-premium/design-de-interface-de-jogo-de-pixel-art-de-fundo-em-design-2d-ceu-azul-nuvens-brancas-grama-verde-no_148553-731.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+
+img{
+    width: 180px;
+    position: absolute;
+    bottom: 95px;
+    animation: movimento 15s forwards ease;
+}
+
+@keyframes movimento {
+    from{
+        transform: translate(0,0);
+    }
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+    
+}
+
+.nuvem{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    animation: nuvem 20s forwards ease;
+}
+
+@keyframes nuvem {
+    from{
+        transform: translate(0,0);
+    }
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+}
+
+.superman{
+    width: 180px;
+    position: absolute;
+    top: 200px;
+    animation: superman 5s forwards ease;
+}
+
+@keyframes superman {
+    from{
+        transform: translate(0,0);
+    }
+
+    to{
+        transform: translate(calc(100vw - 13px), -200px);
+    }
+    
+}
+
+.nuvem2{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    animation: nuvem2  30s forwards ease;
+}
+
+@keyframes nuvem2 {
+    from{
+        transform: translate(100px,0);
+    }
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+}
+
+.nuvem3{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    animation: nuvem2  10s forwards ease;
+}
+
+@keyframes nuvem3 {
+    from{
+        transform: translate(100px,0);
+    }
+
+    to{
+        transform: translate(calc(100vw - 180px), 0px);
+    }
+}
